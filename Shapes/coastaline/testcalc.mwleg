@@ -1,0 +1,12 @@
+<ColoringScheme SchemeType="Grid" GridName="testcalc" GroupName="Data Layers">
+  <GridColoringScheme AmbientIntensity="0,7" Key="" LightSourceAzimuth="90" LightSourceElevation="45" LightSourceIntensity="0,7" NoDataColor="-16777216" ImageLayerFillTransparency="1" ImageUpsamplingMethod="None" ImageDownsamplingMethod="None">
+    <Break Caption="1,700" LowValue="1,7" HighValue="1,7" LowColor="-12553450" HighColor="-12553450" ColoringType="2" GradientModel="1" />
+    <Break Caption="1,900" LowValue="1,9" HighValue="1,9" LowColor="-8095208" HighColor="-8095208" ColoringType="2" GradientModel="1" />
+    <Break Caption="2,100" LowValue="2,1" HighValue="2,1" LowColor="-15304430" HighColor="-15304430" ColoringType="2" GradientModel="1" />
+    <Break Caption="2,300" LowValue="2,3" HighValue="2,3" LowColor="-7969264" HighColor="-7969264" ColoringType="2" GradientModel="1" />
+    <Break Caption="2,500" LowValue="2,5" HighValue="2,5" LowColor="-3412033" HighColor="-3412033" ColoringType="2" GradientModel="1" />
+    <Break Caption="2,700" LowValue="2,7" HighValue="2,7" LowColor="-6030180" HighColor="-6030180" ColoringType="2" GradientModel="1" />
+    <Break Caption="2,900" LowValue="2,9" HighValue="2,9" LowColor="-1262242" HighColor="-1262242" ColoringType="2" GradientModel="1" />
+    <Break Caption="3,100" LowValue="3,1" HighValue="3,1" LowColor="-2712534" HighColor="-2712534" ColoringType="2" GradientModel="1" />
+  </GridColoringScheme>
+</ColoringScheme>

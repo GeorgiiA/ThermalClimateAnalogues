@@ -1,0 +1,10 @@
+<MapWinGIS OcxVersion="4.8" FileType="LayerFile" FileVersion="0" Description="">
+  <Layer LayerType="Shapefile" LayerName="Tolouse" LayerVisible="1" LayerKey="" Filename="">
+    <ShapefileClass>
+      <DefaultDrawingOptions FillColor="1971946" LineColor="16777215" LineWidth="2.000000" PointNumSides="6" PointShapeType="1" PointSize="16.000000" />
+      <ShapefileCategoriesClass />
+      <LabelsClass Alignment="5" Generated="1" AvoidCollisions="0" Positioning="1" TextRenderingHint="5" Expression="&quot;Toulouse&quot;" />
+      <ChartsClass ValuesFontName="" />
+    </ShapefileClass>
+  </Layer>
+</MapWinGIS>

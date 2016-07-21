@@ -1,0 +1,10 @@
+<MapWinGIS OcxVersion="4.8" FileType="LayerFile" FileVersion="0" Description="">
+  <Layer LayerType="Shapefile" LayerName="Moscow" LayerVisible="1" LayerKey="" Filename="">
+    <ShapefileClass>
+      <DefaultDrawingOptions FillBgColor="16777215" FillBgTransparent="0" FillColor="3552822" FillHatchStyle="5" FillType="1" LineColor="1973790" LineWidth="4,000000" PointNumSides="20" PointShapeRatio="1,000000" PointShapeType="3" PointSize="16,000000" />
+      <ShapefileCategoriesClass />
+      <LabelsClass Alignment="8" FontSize="14" Generated="1" AvoidCollisions="0" Positioning="1" TextRenderingHint="5" Expression="&quot;Москва&quot;" />
+      <ChartsClass ValuesFontName="" />
+    </ShapefileClass>
+  </Layer>
+</MapWinGIS>

@@ -1,0 +1,10 @@
+<MapWinGIS OcxVersion="4.8" FileType="LayerFile" FileVersion="0" Description="">
+  <Layer LayerType="Shapefile" LayerName="Athens" LayerVisible="1" LayerKey="" Filename="">
+    <ShapefileClass>
+      <DefaultDrawingOptions FillColor="1971946" LineColor="16777215" PointNumSides="19977784" PointShapeRatio="8315402633193429100000000000.000000" PointShapeType="3" PointSize="12.000000" />
+      <ShapefileCategoriesClass />
+      <LabelsClass Alignment="5" Generated="1" AvoidCollisions="0" Positioning="1" TextRenderingHint="5" Expression="&quot;Athens&quot;" />
+      <ChartsClass />
+    </ShapefileClass>
+  </Layer>
+</MapWinGIS>

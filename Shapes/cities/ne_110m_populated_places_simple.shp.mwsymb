@@ -1,0 +1,10 @@
+<MapWinGIS OcxVersion="4.8" FileType="LayerFile" FileVersion="0" Description="">
+  <Layer LayerType="Shapefile" LayerName="ne_110m_populated_places_simple" LayerVisible="1" LayerKey="" Filename="">
+    <ShapefileClass>
+      <DefaultDrawingOptions FillColor="3546634" LineColor="16777215" PointNumSides="10015712" PointShapeRatio="4167991295177916400.000000" PointShapeType="3" />
+      <ShapefileCategoriesClass />
+      <LabelsClass Alignment="5" Generated="1" AvoidCollisions="0" Positioning="1" TextRenderingHint="5" Expression="[nameascii] " />
+      <ChartsClass ValuesFontName="" />
+    </ShapefileClass>
+  </Layer>
+</MapWinGIS>

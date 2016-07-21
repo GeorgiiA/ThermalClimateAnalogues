@@ -1,0 +1,117 @@
+<Mapwin name="MapWindow+GIS++-+crupann*" type="projectfile.2" version="4.8.8">
+  <MapWinGIS OcxVersion="4.8" FileType="MapState" FileVersion="0">
+  <MapState SendMouseMove="1" SendMouseDown="1" SendMouseUp="1" SendSelectBoxFinal="1" CursorMode="4" MapCursor="2" TrapRightMouseDown="1" UnitsOfMeasure="0" ShowVersionNumber="1" ExtentsLeft="-187,200000" ExtentsRight="187,200000" ExtentsBottom="-100,620141" ExtentsTop="105,427953" ExtentsPad="0,020000" />
+  <Layers>
+    <Layer LayerType="Shapefile" LayerName="ne_50m_wgs84_bounding_box" LayerVisible="1" LayerKey="" Filename="..\boundbox\ne_50m_wgs84_bounding_box.shp">
+      <ShapefileClass>
+        <DefaultDrawingOptions FillColor="16777215" LineColor="9868950" />
+        <ShapefileCategoriesClass />
+        <LabelsClass Generated="0" AvoidCollisions="0" Positioning="1" TextRenderingHint="5" />
+        <ChartsClass ValuesFontName="" />
+      </ShapefileClass>
+    </Layer>
+    <Layer LayerType="Image" LayerName="P/PET" LayerVisible="1" LayerKey="" Filename="..\cruptp.bmp" GridFilename="C:\Users\User\Documents\MathNotes\maps\cruptp.asc">
+      <ImageClass Key="" SetToGrey="0" TransparencyColor="0" TransparencyColor2="0" UseTransparencyColor="-1" TransparencyPercent="1,000000" DownsamplingMode="5" UpsamplingMode="5">
+        <LabelsClass Generated="0" AvoidCollisions="0" TextRenderingHint="5" />
+      </ImageClass>
+      <GridColorSchemeClass Key="" NoDataColor="0" LightSourceIntensity="0,700000" AmbientIntensity="0,700000" LightSourceElevation="45,000000" LightSourceAzimuth="90,000000" LightSourceI="-0,707107" LightSourceJ="-0,707106" LightSourceK="0,000001">
+        <GridColorBreaks>
+          <GridColorBreakClass HighColor="9410357" LowColor="9410357" LowValue="0,700000" HighValue="0,700000" Caption="&lt; 0.8" ColoringType="2" GradientModel="1" Key="" />
+          <GridColorBreakClass HighColor="12701056" LowColor="12701056" LowValue="0,900000" HighValue="0,900000" Caption="0.8-1.0" ColoringType="2" GradientModel="1" Key="" />
+          <GridColorBreakClass HighColor="15067847" LowColor="15067847" LowValue="1,100000" HighValue="1,100000" Caption="1.0-1.2" ColoringType="2" GradientModel="1" Key="" />
+          <GridColorBreakClass HighColor="12839158" LowColor="12839158" LowValue="1,300000" HighValue="1,300000" Caption="1.2-1.4" ColoringType="2" GradientModel="1" Key="" />
+          <GridColorBreakClass HighColor="8241887" LowColor="8241887" LowValue="1,500000" HighValue="1,500000" Caption="1.4-1.6" ColoringType="2" GradientModel="1" Key="" />
+          <GridColorBreakClass HighColor="2982335" LowColor="2982335" LowValue="1,700000" HighValue="1,700000" Caption="1.6-1.8" ColoringType="2" GradientModel="1" Key="" />
+          <GridColorBreakClass HighColor="676236" LowColor="676236" LowValue="1,900000" HighValue="1,900000" Caption="1.8-2.0" ColoringType="1" GradientModel="1" Key="" />
+          <GridColorBreakClass HighColor="9546" LowColor="9546" LowValue="2,100000" HighValue="2,100000" Caption="&gt; 2.0" ColoringType="1" GradientModel="1" Key="" />
+        </GridColorBreaks>
+      </GridColorSchemeClass>
+    </Layer>
+    <Layer LayerType="Image" LayerName="Annual precipitation, mm/yr" LayerVisible="0" LayerKey="" Filename="..\crupann.bmp" GridFilename="C:\Users\User\Documents\MathNotes\maps\crupann.asc">
+      <ImageClass Key="" SetToGrey="0" TransparencyColor="0" TransparencyColor2="0" UseTransparencyColor="-1" TransparencyPercent="1,000000" DownsamplingMode="5" UpsamplingMode="5">
+        <LabelsClass Generated="0" AvoidCollisions="0" TextRenderingHint="5" />
+      </ImageClass>
+      <GridColorSchemeClass Key="" NoDataColor="0" LightSourceIntensity="0,700000" AmbientIntensity="0,700000" LightSourceElevation="45,000000" LightSourceAzimuth="90,000000" LightSourceI="-0,707107" LightSourceJ="-0,707106" LightSourceK="0,000001">
+        <GridColorBreaks>
+          <GridColorBreakClass HighColor="16776183" LowColor="16776183" LowValue="325,000000" HighValue="325,000000" Caption="&lt;350" ColoringType="1" GradientModel="1" Key="" />
+          <GridColorBreakClass HighColor="16247774" LowColor="16247774" LowValue="375,000000" HighValue="375,000000" Caption="350-400" ColoringType="1" GradientModel="1" Key="" />
+          <GridColorBreakClass HighColor="15719366" LowColor="15719366" LowValue="425,000000" HighValue="425,000000" Caption="400-450" ColoringType="1" GradientModel="1" Key="" />
+          <GridColorBreakClass HighColor="14797470" LowColor="14797470" LowValue="475,000000" HighValue="475,000000" Caption="450-500" ColoringType="1" GradientModel="1" Key="" />
+          <GridColorBreakClass HighColor="14069355" LowColor="14069355" LowValue="525,000000" HighValue="525,000000" Caption="500-550" ColoringType="1" GradientModel="1" Key="" />
+          <GridColorBreakClass HighColor="13013570" LowColor="13013570" LowValue="575,000000" HighValue="575,000000" Caption="550-600" ColoringType="1" GradientModel="1" Key="" />
+          <GridColorBreakClass HighColor="11890977" LowColor="11890977" LowValue="625,000000" HighValue="625,000000" Caption="600-650" ColoringType="1" GradientModel="1" Key="" />
+          <GridColorBreakClass HighColor="9717000" LowColor="9717000" LowValue="675,000000" HighValue="675,000000" Caption="&gt;650" ColoringType="1" GradientModel="1" Key="" />
+        </GridColorBreaks>
+      </GridColorSchemeClass>
+    </Layer>
+    <Layer LayerType="Shapefile" LayerName="ne_50m_ocean" LayerVisible="1" LayerKey="" Filename="..\ocean\ne_50m_ocean.shp">
+      <ShapefileClass>
+        <DefaultDrawingOptions FillColor="14072486" LineColor="9868950" />
+        <ShapefileCategoriesClass />
+        <LabelsClass Generated="0" AvoidCollisions="0" Positioning="1" TextRenderingHint="5" />
+        <ChartsClass ValuesFontName="" />
+      </ShapefileClass>
+    </Layer>
+    <Layer LayerType="Shapefile" LayerName="ne_50m_rivers_lake_centerlines" LayerVisible="1" LayerKey="" Filename="..\rivers\ne_50m_rivers_lake_centerlines.shp">
+      <ShapefileClass>
+        <DefaultDrawingOptions FillColor="16777215" LineColor="7487002" UseLinePattern="96">
+          <LinePatternClass Key="" Transparency="255">
+            <LineSegments>
+              <LineSegmentClass LineType="0" Color="7487002" MarkerOutlineColor="7895160" LineWidth="1,000000" MarkerSize="12,000000" MarkerInterval="16,000000" MarkerOffset="0,000000" LineStyle="0" Marker="2" MarkerOrientation="1" MarkerFlipFirst="-1" />
+            </LineSegments>
+          </LinePatternClass>
+        </DefaultDrawingOptions>
+        <ShapefileCategoriesClass />
+        <LabelsClass Generated="0" AvoidCollisions="0" Positioning="6" TextRenderingHint="5" />
+        <ChartsClass ValuesFontName="" />
+      </ShapefileClass>
+    </Layer>
+    <Layer LayerType="Shapefile" LayerName="ne_50m_graticules_5" LayerVisible="1" LayerKey="" Filename="..\graticules\ne_50m_graticules_5.shp">
+      <ShapefileClass>
+        <DefaultDrawingOptions FillColor="16777215" LineColor="7565160" PointShapeRatio="0,000000" Rotation="45,000000">
+          <Picture Key="" SetToGrey="0" TransparencyColor="0" TransparencyColor2="0" UseTransparencyColor="0" TransparencyPercent="1,000000" DownsamplingMode="5" UpsamplingMode="3">
+            <ImageBuffer GdiPlusBitmap="0" Width="0" Height="0"></ImageBuffer>
+          </Picture>
+        </DefaultDrawingOptions>
+        <ShapefileCategoriesClass />
+        <LabelsClass Visible="0" Generated="0" AvoidCollisions="0" Positioning="6" TextRenderingHint="5" />
+        <ChartsClass />
+      </ShapefileClass>
+    </Layer>
+  </Layers>
+</MapWinGIS>
+  <MapWindow4 ConfigurationPath="..\..\..\..\AppData\Roaming\MapWindow\mapwindow.mwcfg" ProjectProjection="+proj=longlat +datum=WGS84 +no_defs " MapUnits="Lat/Long" StatusBarAlternateCoordsNumDecimals="3" StatusBarCoordsNumDecimals="3" StatusBarAlternateCoordsUseCommas="True" StatusBarCoordsUseCommas="True" ShowFloatingScaleBar="False" FloatingScaleBarPosition="LowerRight" FloatingScaleBarUnit="" FloatingScaleBarForecolor="-16777216" FloatingScaleBarBackcolor="-1" MapResizeBehavior="0" ShowStatusBarCoords_Projected="True" ShowStatusBarCoords_Alternate="(None)" SaveShapeSettings="False" ViewBackColor_UseDefault="True" ViewBackColor="16777215" ProjectProjectionWKT="GEOGCS[&quot;WGS 84&quot;,DATUM[&quot;WGS_1984&quot;,SPHEROID[&quot;WGS 84&quot;,6378137,298.257223563,AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]],AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]],PRIMEM[&quot;Greenwich&quot;,0,AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]],UNIT[&quot;degree&quot;,0.0174532925199433,AUTHORITY[&quot;EPSG&quot;,&quot;9122&quot;]],AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]">
+    <Plugins>
+      <Plugin SettingsString="" Key="ArchiveTool_mwArchiveTool" />
+      <Plugin SettingsString="" Key="mwGPX_mwGPX" />
+    </Plugins>
+    <ApplicationPlugins PluginDir="..\..\..\..\..\Program Files (x86)\MapWindow\ApplicationPlugins">
+      <Plugin SettingsString="Editable=False" Key="mwIdentifier_mwIdentPlugin" />
+      <Plugin SettingsString="" Key="measureProject_measureClass" />
+      <Plugin SettingsString="" Key="mwSymbology_SymbologyPlugin" />
+      <Plugin SettingsString="" Key="ToolboxExtra_Classes_Main" />
+      <Plugin SettingsString="" Key="TableEditorNew_Main" />
+      <Plugin SettingsString="" Key="GISTools_GisToolsPlugin" />
+      <Plugin SettingsString="" Key="mwLayout_LayoutPlugin" />
+    </ApplicationPlugins>
+    <Bookmarks />
+    <PreviewMap dx="0" dy="0" xllcenter="0" yllcenter="0">
+      <Image Type="">
+      </Image>
+    </PreviewMap>
+    <Groups>
+      <Group Name="Data Layers" Expanded="True" Position="0">
+        <Image Type="">
+        </Image>
+      </Group>
+    </Groups>
+    <Layers>
+      <Layer Name="ne_50m_wgs84_bounding_box" Tag="" Expanded="True" Handle="3" PositionInGroup="0" GroupIndex="0" GroupName="Data Layers" />
+      <Layer Name="P/PET" Tag="" Expanded="True" Handle="5" PositionInGroup="1" GroupIndex="0" GroupName="Data Layers" />
+      <Layer Name="Annual precipitation, mm/yr" Tag="" Expanded="True" Handle="4" PositionInGroup="2" GroupIndex="0" GroupName="Data Layers" />
+      <Layer Name="ne_50m_ocean" Tag="" Expanded="True" Handle="0" PositionInGroup="3" GroupIndex="0" GroupName="Data Layers" />
+      <Layer Name="ne_50m_rivers_lake_centerlines" Tag="" Expanded="True" Handle="1" PositionInGroup="4" GroupIndex="0" GroupName="Data Layers" />
+      <Layer Name="ne_50m_graticules_5" Tag="" Expanded="True" Handle="2" PositionInGroup="5" GroupIndex="0" GroupName="Data Layers" />
+    </Layers>
+  </MapWindow4>
+</Mapwin>

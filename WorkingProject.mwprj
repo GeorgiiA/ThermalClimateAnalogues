@@ -1,0 +1,148 @@
+<Mapwin name="MapWindow+GIS++-+WorkingProject*" type="projectfile.2" version="4.8.8">
+  <MapWinGIS OcxVersion="4.8" FileType="MapState" FileVersion="0">
+  <MapState SendMouseMove="1" SendMouseDown="1" SendMouseUp="1" SendSelectBoxFinal="1" CursorMode="2" TrapRightMouseDown="1" UnitsOfMeasure="0" ShowVersionNumber="1" ExtentsLeft="5,076522" ExtentsRight="112,978646" ExtentsBottom="30,336342" ExtentsTop="82,262292" ExtentsPad="0,020000" />
+  <Layers>
+    <Layer LayerType="Shapefile" LayerName="ne_50m_wgs84_bounding_box" LayerVisible="1" LayerKey="" Filename="Shapes\boundbox\ne_50m_wgs84_bounding_box.shp">
+      <ShapefileClass>
+        <DefaultDrawingOptions FillColor="16777215" LineColor="9868950" />
+        <ShapefileCategoriesClass />
+        <LabelsClass Generated="0" AvoidCollisions="0" Positioning="1" TextRenderingHint="5" />
+        <ChartsClass ValuesFontName="" />
+      </ShapefileClass>
+    </Layer>
+    <Layer LayerType="Image" LayerName="idtfpMoscow" LayerVisible="1" LayerKey="" Filename="Rasters\idtfpCenterMoscow.bmp" 
+	GridFilename="Rasters\idtfpCenterMoscow.asc">
+      <ImageClass Key="" SetToGrey="0" TransparencyColor="0" TransparencyColor2="0" UseTransparencyColor="-1" TransparencyPercent="1,000000" DownsamplingMode="5" UpsamplingMode="5">
+        <LabelsClass Generated="0" AvoidCollisions="0" TextRenderingHint="5" />
+      </ImageClass>
+      <GridColorSchemeClass Key="" NoDataColor="0" LightSourceIntensity="0,700000" AmbientIntensity="0,700000" LightSourceElevation="45,000000" LightSourceAzimuth="90,000000" LightSourceI="-0,707107" LightSourceJ="-0,707106" LightSourceK="0,000001">
+        <GridColorBreaks>
+          <GridColorBreakClass HighColor="11826501" LowColor="11826501" LowValue="-83,100000" HighValue="-5,100000" Caption="&lt; -5" ColoringType="1" GradientModel="1" Key="" />
+          <GridColorBreakClass HighColor="14401425" LowColor="14401425" LowValue="-5,000000" HighValue="-2,100000" Caption="-5 - - 2" ColoringType="1" GradientModel="1" Key="" />
+          <GridColorBreakClass HighColor="16315360" LowColor="16315360" LowValue="-2,000000" HighValue="-0,100000" Caption="-2 - 0" ColoringType="1" GradientModel="1" Key="" />
+          <GridColorBreakClass HighColor="12582911" LowColor="12582911" LowValue="0,000000" HighValue="2,000000" Caption="0 - 2" ColoringType="1" GradientModel="1" Key="" />
+          <GridColorBreakClass HighColor="5869052" LowColor="5869052" LowValue="2,100000" HighValue="5,000000" Caption="2-5" ColoringType="1" GradientModel="1" Key="" />
+          <GridColorBreakClass HighColor="2568407" LowColor="2568407" LowValue="5,100000" HighValue="44,100000" Caption="&gt;5" ColoringType="1" GradientModel="1" Key="" />
+        </GridColorBreaks>
+      </GridColorSchemeClass>
+    </Layer>
+    <Layer LayerType="Shapefile" LayerName="ne_50m_ocean" LayerVisible="1" LayerKey="" Filename="Shapes\ocean\ne_50m_ocean.shp">
+      <ShapefileClass>
+        <DefaultDrawingOptions FillColor="14072486" LineColor="9868950" />
+        <ShapefileCategoriesClass />
+        <LabelsClass Generated="0" AvoidCollisions="0" Positioning="1" TextRenderingHint="5" />
+        <ChartsClass ValuesFontName="" />
+      </ShapefileClass>
+    </Layer>
+    <Layer LayerType="Shapefile" LayerName="ne_50m_antarctic_ice_shelves_polys" LayerVisible="1" LayerKey="" Filename="Shapes\anatarctic\ne_50m_antarctic_ice_shelves_polys.shp">
+      <ShapefileClass>
+        <DefaultDrawingOptions FillColor="14661566" LineColor="9868950" />
+        <ShapefileCategoriesClass />
+        <LabelsClass Generated="0" AvoidCollisions="0" Positioning="1" TextRenderingHint="5" />
+        <ChartsClass ValuesFontName="" />
+      </ShapefileClass>
+    </Layer>
+    <Layer LayerType="Shapefile" LayerName="ne_50m_glaciated_areas" LayerVisible="1" LayerKey="" Filename="Shapes\glaciated\ne_50m_glaciated_areas.shp">
+      <ShapefileClass>
+        <DefaultDrawingOptions FillColor="13680352" LineColor="9868950" />
+        <ShapefileCategoriesClass />
+        <LabelsClass Generated="0" AvoidCollisions="0" Positioning="1" TextRenderingHint="5" />
+        <ChartsClass ValuesFontName="" />
+      </ShapefileClass>
+    </Layer>
+    <Layer LayerType="Shapefile" LayerName="ne_50m_lakes" LayerVisible="1" LayerKey="" Filename="Shapes\lakes\ne_50m_lakes.shp">
+      <ShapefileClass>
+        <DefaultDrawingOptions FillColor="13817032" LineColor="9868950" />
+        <ShapefileCategoriesClass />
+        <LabelsClass Generated="0" AvoidCollisions="0" Positioning="1" TextRenderingHint="5" />
+        <ChartsClass ValuesFontName="" />
+      </ShapefileClass>
+    </Layer>
+    <Layer LayerType="Shapefile" LayerName="ne_50m_rivers_lake_centerlines" LayerVisible="1" LayerKey="" Filename="Shapes\rivers\ne_50m_rivers_lake_centerlines.shp">
+      <ShapefileClass>
+        <DefaultDrawingOptions FillColor="16777215" LineColor="7487002">
+          <LinePatternClass Key="" Transparency="255">
+            <LineSegments>
+              <LineSegmentClass LineType="0" Color="7487002" MarkerOutlineColor="7895160" LineWidth="1,000000" MarkerSize="12,000000" MarkerInterval="16,000000" MarkerOffset="0,000000" LineStyle="0" Marker="2" MarkerOrientation="1" MarkerFlipFirst="-1" />
+            </LineSegments>
+          </LinePatternClass>
+        </DefaultDrawingOptions>
+        <ShapefileCategoriesClass />
+        <LabelsClass Generated="0" AvoidCollisions="0" Positioning="6" TextRenderingHint="5" />
+        <ChartsClass ValuesFontName="" />
+      </ShapefileClass>
+    </Layer>
+    <Layer LayerType="Shapefile" LayerName="ne_50m_graticules_5" LayerVisible="1" LayerKey="" Filename="Shapes\graticules\ne_50m_graticules_5.shp">
+      <ShapefileClass>
+        <DefaultDrawingOptions FillColor="16777215" LineColor="7565160" PointShapeRatio="0,000000" Rotation="45,000000" UseLinePattern="1" />
+        <ShapefileCategoriesClass />
+        <LabelsClass Visible="0" Generated="0" AvoidCollisions="0" Positioning="6" TextRenderingHint="5" />
+        <ChartsClass ValuesFontName="" />
+      </ShapefileClass>
+    </Layer>
+    <Layer LayerType="Shapefile" LayerName="Moscow" LayerVisible="1" LayerKey="" Filename="Shapes\cities\Moscow.shp">
+      <ShapefileClass>
+        <DefaultDrawingOptions FillColor="1971946" LineColor="16777215" LineWidth="4,000000" PointNumSides="20" PointShapeRatio="1,000000" PointShapeType="3" PointSize="16,000000" />
+        <ShapefileCategoriesClass />
+        <LabelsClass Alignment="2" FontColor="7487002" FontSize="14" Generated="1" AvoidCollisions="0" Positioning="1" TextRenderingHint="5" Expression="&quot;Moscow&quot;" />
+        <ChartsClass ValuesFontName="" />
+      </ShapefileClass>
+    </Layer>
+    <Layer LayerType="Shapefile" LayerName="ne_110m_populated_places_simple" LayerVisible="0" LayerKey="" Filename="Shapes\cities\ne_110m_populated_places_simple.shp">
+      <ShapefileClass>
+        <DefaultDrawingOptions FillColor="3546634" LineColor="16777215" PointNumSides="10015712" PointShapeRatio="4167991295177916400,000000" PointShapeType="3" />
+        <ShapefileCategoriesClass />
+        <LabelsClass Alignment="5" Generated="1" AvoidCollisions="0" Positioning="1" TextRenderingHint="5" Expression="[nameascii] " />
+        <ChartsClass ValuesFontName="" />
+      </ShapefileClass>
+    </Layer>
+  </Layers>
+</MapWinGIS>
+  <MapWindow4 ConfigurationPath="..\..\..\AppData\Roaming\MapWindow\mapwindow.mwcfg" ProjectProjection="+proj=longlat +ellps=WGS84 +no_defs " MapUnits="Lat/Long" StatusBarAlternateCoordsNumDecimals="3" StatusBarCoordsNumDecimals="3" StatusBarAlternateCoordsUseCommas="True" StatusBarCoordsUseCommas="True" ShowFloatingScaleBar="False" FloatingScaleBarPosition="LowerRight" FloatingScaleBarUnit="" FloatingScaleBarForecolor="-16777216" FloatingScaleBarBackcolor="-1" MapResizeBehavior="0" ShowStatusBarCoords_Projected="True" ShowStatusBarCoords_Alternate="(None)" SaveShapeSettings="False" ViewBackColor_UseDefault="True" ViewBackColor="16777215" ProjectProjectionWKT="GEOGCS[&quot;GCS_WGS_1984&quot;,DATUM[&quot;D_WGS_1984&quot;,SPHEROID[&quot;WGS_1984&quot;,6378137.0,298.257223563]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.017453292519943295]]">
+    <Plugins>
+      <Plugin SettingsString="" Key="ArchiveTool_mwArchiveTool" />
+      <Plugin SettingsString="" Key="mwGPX_mwGPX" />
+      <Plugin SettingsString="" Key="jk_ShapefileToGrid_ShapefileToGridPlugin" />
+      <Plugin SettingsString="" Key="GridAnalysisTool_MainPlugin" />
+      <Plugin SettingsString="" Key="ShapefileEditor_ShapefileEditorClass" />
+    </Plugins>
+    <ApplicationPlugins PluginDir="..\..\..\..\..\Program Files (x86)\MapWindow\ApplicationPlugins">
+      <Plugin SettingsString="Editable=False" Key="mwIdentifier_mwIdentPlugin" />
+      <Plugin SettingsString="" Key="measureProject_measureClass" />
+      <Plugin SettingsString="" Key="mwSymbology_SymbologyPlugin" />
+      <Plugin SettingsString="" Key="ToolboxExtra_Classes_Main" />
+      <Plugin SettingsString="" Key="TableEditorNew_Main" />
+      <Plugin SettingsString="" Key="GISTools_GisToolsPlugin" />
+      <Plugin SettingsString="" Key="mwLayout_LayoutPlugin" />
+    </ApplicationPlugins>
+    <Bookmarks />
+    <PreviewMap dx="0" dy="0" xllcenter="0" yllcenter="0">
+      <Image Type="">
+      </Image>
+    </PreviewMap>
+    <Groups>
+      <Group Name="Data Layers" Expanded="True" Position="0">
+        <Image Type="">
+        </Image>
+      </Group>
+    </Groups>
+    <Layers>
+      <Layer Name="ne_50m_wgs84_bounding_box" Tag="" Expanded="True" Handle="0" PositionInGroup="0" GroupIndex="0" GroupName="Data Layers" />
+      <Layer Name="idtfpMoscow" Tag="" Expanded="True" Handle="9" PositionInGroup="1" GroupIndex="0" GroupName="Data Layers" />
+      <Layer Name="ne_50m_ocean" Tag="" Expanded="True" Handle="1" PositionInGroup="2" GroupIndex="0" GroupName="Data Layers" />
+      <Layer Name="ne_50m_antarctic_ice_shelves_polys" Tag="" Expanded="True" Handle="2" PositionInGroup="3" GroupIndex="0" GroupName="Data Layers" />
+      <Layer Name="ne_50m_glaciated_areas" Tag="" Expanded="True" Handle="3" PositionInGroup="4" GroupIndex="0" GroupName="Data Layers" />
+      <Layer Name="ne_50m_lakes" Tag="" Expanded="True" Handle="4" PositionInGroup="5" GroupIndex="0" GroupName="Data Layers" />
+      <Layer Name="ne_50m_rivers_lake_centerlines" Tag="" Expanded="True" Handle="5" PositionInGroup="6" GroupIndex="0" GroupName="Data Layers" />
+      <Layer Name="ne_50m_graticules_5" Tag="" Expanded="True" Handle="6" PositionInGroup="7" GroupIndex="0" GroupName="Data Layers" />
+      <Layer Name="Moscow" Tag="" Expanded="True" Handle="7" PositionInGroup="8" GroupIndex="0" GroupName="Data Layers">
+        <CustomObjects>
+          <Object Key="SymbologyPluginSettings">
+            <SymbologyPlugin CategoriesClassification="ctNaturalBreaks" CategoriesCount="7" CategoriesUseGradient="false" CategoriesRandomColors="false" CategoriesFieldName="" CategoriesVariableSize="false" CategoriesSizeRange="8" CategoriesSortingField="" LabelsGraduatedColors="false" LabelsRandomColors="false" LabelsVariableSize="false" LabelsSchemeIndex="0" LabelsSizeRange="10" LabelsCategoriesCount="6" LabelsFieldName="" LabelsClassification="ctNaturalBreaks" LabelsSize="10" ShowLayerPreview="true" Comments="" ScaleIcons="false" IconIndex="-1" IconCollection="arrows" UpdateMapAtOnce="false" ShowQueryValues="true" ShowQueryOnMap="false" />
+          </Object>
+        </CustomObjects>
+      </Layer>
+      <Layer Name="ne_110m_populated_places_simple" Tag="" Expanded="True" Handle="8" PositionInGroup="9" GroupIndex="0" GroupName="Data Layers" />
+    </Layers>
+  </MapWindow4>
+</Mapwin>

@@ -1,0 +1,10 @@
+<ColoringScheme SchemeType="Grid" GridName="idtfpMoscow" GroupName="Data Layers">
+  <GridColoringScheme AmbientIntensity="0,7" Key="" LightSourceAzimuth="90" LightSourceElevation="45" LightSourceIntensity="0,7" NoDataColor="-16777216" ImageLayerFillTransparency="1" ImageUpsamplingMethod="Bilinear" ImageDownsamplingMethod="None">
+    <Break Caption="&lt; -5" LowValue="-83,1" HighValue="-5,1" LowColor="-12225100" HighColor="-12225100" ColoringType="1" GradientModel="1" />
+    <Break Caption="-5 - - 2" LowValue="-5" HighValue="-2,1" LowColor="-7225381" HighColor="-7225381" ColoringType="1" GradientModel="1" />
+    <Break Caption="-2 - 0" LowValue="-2" HighValue="-0,1" LowColor="-2034696" HighColor="-2034696" ColoringType="1" GradientModel="1" />
+    <Break Caption="0 - 2" LowValue="0" HighValue="2" LowColor="-65" HighColor="-65" ColoringType="1" GradientModel="1" />
+    <Break Caption="2-5" LowValue="2,1" HighValue="5" LowColor="-225959" HighColor="-225959" ColoringType="1" GradientModel="1" />
+    <Break Caption="&gt;5" LowValue="5,1" HighValue="44,1" LowColor="-2674649" HighColor="-2674649" ColoringType="1" GradientModel="1" />
+  </GridColoringScheme>
+</ColoringScheme>
